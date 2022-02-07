@@ -1,0 +1,83 @@
+html{
+         background-color: antiquewhite;
+         color: black;
+     }
+     header{
+         background-color: rgb(196, 122, 26);
+         color: aliceblue;
+         padding-left: 5px;
+         margin: -0.5%;
+     }
+     #news-decor{
+         font-weight: bold;
+         color: black;
+         font-size: 1.2em;
+     }
+     .navigator{
+         margin-left: 40%;
+         margin-bottom: 15px;
+     }
+     ul{
+         display: inline;
+     }
+     li{
+         margin-right: 20px;
+         display: inline;
+     }
+     li a{
+         color: brown;
+     }
+     li a:hover{
+         color: rgb(196, 122, 26);
+     }
+     .section-title{
+         margin: 100px auto;
+         text-align: center;
+         position: relative;
+         font-size: 2em;
+         margin-bottom: 15px;
+     }
+     .section-title::before{
+         content: "";
+         display: block;
+         width: 42%;
+         height: 2px;
+         background: #000;
+         left: 0;
+         top: 50%;
+         position: absolute;
+     }
+     .section-title::after{
+         content: "";
+         display: block;
+         width: 42%;
+         height: 2px;
+         background: #000;
+         right: 0;
+         top: 50%;
+         position: absolute;
+     }
+     .new-container{
+         background-color: rgb(127, 171, 172);
+         border: 1px solid black;
+         margin-bottom: 15px;
+         padding-left: 5px;
+         padding-bottom: 5px;
+     }
+     .link{
+         font-size: 1.3em;
+         margin-left: 8px;
+     }
+     .link a{
+         color: brown;
+     }
+     .link a:hover{
+         color: rgb(196, 122, 26);
+     }
+     .tag{
+         border: 0.5px solid gray;
+         border-radius: 15px;
+         background-color: aliceblue;
+         padding: 5px;
+         font-weight: bold;
+     }
